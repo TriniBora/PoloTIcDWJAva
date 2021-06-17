@@ -1,0 +1,7 @@
+DATOS BASE DE DATOS
+Usuario: tpo2integrador
+Contraseña: tpo2integrador
+Url:localhost/127.0.0.1
+Puerto:3306
+bd: tpo2int
+Host:localhost
