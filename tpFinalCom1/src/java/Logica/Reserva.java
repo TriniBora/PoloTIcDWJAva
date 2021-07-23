@@ -1,12 +1,26 @@
 package Logica;
 
+import java.io.Serializable;
 import java.util.Date;
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
-public class Reserva {
+@Entity
+public class Reserva implements Serializable {
     
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id_reserva;
+    @Temporal(TemporalType.DATE)
     private Date fechaEntrada;
+    @Temporal(TemporalType.DATE)
     private Date fechaSalida;
+    @Basic
     private int cantPersonas;
     private double montoTotal;
     private String observaciones;

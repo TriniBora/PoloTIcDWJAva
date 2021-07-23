@@ -1,12 +1,24 @@
 package Logica;
 
+import java.io.Serializable;
 import java.util.List;
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
-public class Usuario {
+@Entity
+public class Usuario implements Serializable {
     
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id_usuario;
+    @Basic
     private String user;
     private String contrasenia;
+    @OneToMany
     private List <Reserva> listaReservas;
 
     public Usuario() {

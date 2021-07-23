@@ -1,13 +1,24 @@
 package Logica;
 
 import java.util.Date;
+import javax.persistence.Basic;
+import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
+@Inheritance( strategy = InheritanceType.TABLE_PER_CLASS )
 public abstract class Persona {
     
+    @Id
     protected String dni;
+    @Basic
     protected String nombre;
     protected String apellido;
-    protected Date fechaNac; 
+    @Temporal(TemporalType.DATE)
+    protected Date fechaNac;
+    @Basic
     protected String telefono;
     protected String email;
     protected String direccion;

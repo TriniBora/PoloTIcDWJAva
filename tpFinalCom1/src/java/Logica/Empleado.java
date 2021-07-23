@@ -1,11 +1,23 @@
 package Logica;
 
+import java.io.Serializable;
 import java.util.Date;
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
-public class Empleado extends Persona {
+@Entity
+public class Empleado extends Persona implements Serializable {
     
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id_empleado;
+    @Basic
     private String cargo;
+    @OneToOne
     private Usuario user;
 
     public Empleado() {
