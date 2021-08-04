@@ -1,9 +1,0 @@
-127.0.0.1 - - [14/Jul/2021:08:19:26 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - - [14/Jul/2021:08:19:26 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - - [14/Jul/2021:08:19:26 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - - [14/Jul/2021:08:19:26 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
-127.0.0.1 - TriniBora [14/Jul/2021:08:19:26 -0300] "GET /manager/text/list HTTP/1.1" 200 315
-127.0.0.1 - TriniBora [14/Jul/2021:08:19:26 -0300] "GET /manager/text/list HTTP/1.1" 200 315
-127.0.0.1 - - [14/Jul/2021:08:19:29 -0300] "GET /PruebaWeb HTTP/1.1" 302 -
-127.0.0.1 - - [14/Jul/2021:08:19:29 -0300] "GET /PruebaWeb/ HTTP/1.1" 200 773
-127.0.0.1 - - [14/Jul/2021:08:19:29 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
