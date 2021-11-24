@@ -1,9 +1,9 @@
-# TP FINAL COMISIÓN 1
-# DESARROLLO WEB FULL STACK CON JAVA – POLO TIC MISIONES
+## TP FINAL COMISIÓN 1
+## DESARROLLO WEB FULL STACK CON JAVA – POLO TIC MISIONES
 ESTUDIANTE: BORAGINI, TRINIDAD		DOCENTE: ING. DE PAULA, LUISINA
 AGOSTO 2021
 
-# DOCUMENTO DE SUPUESTOS
+### DOCUMENTO DE SUPUESTOS
 
 Teniendo como base los requerimientos enunciados en la consigna del presente trabajo final, se consideraron los siguientes supuestos:
 •	Un usuario está asociado unívocamente a un empleado. No existe empleado sin usuario y usuario sin empleado.
